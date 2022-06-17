@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* min-width: 550px; */
+    min-height: 868px;
+    background: #23252C;    
+    display: flex;  
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 320px;
+    min-height: 400px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info--container {
+    background: #1A1B21;
+    margin-top: -10px;
+    width: 320px;
+    padding: 10px 35px 0 35px;
+}
+
+.info--profile-image {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info--profile-name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;    
+    margin: 20px 0 0 0;
+}
+
+.info--job-title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin: 2px 0 0 0;
+}
+
+.info--website {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    margin: 10px 0 0 0;
+}
+
+.info--buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.about--container {
+    background: #1A1B21;
+    width: 320px;
+    padding: 10px 35px 0 35px;
+}
+
+.about--container > h4 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin: 30px 0 0 0;    
+}
+
+.about--container > p {
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 5px 0 0 0;
+}
+
+.interests--container {
+    background: #1A1B21;
+    width: 320px;
+    padding: 10px 35px 50px 35px;
+}
+
+.interests--container > h4 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin: 10px 0 0 0;    
+}
+
+.interests--container > p {
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 5px 0 0 0;
+}
+
+footer {
+    width: 320px;
+    height: 64px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > img {
+    margin: 0 12px;
+}
